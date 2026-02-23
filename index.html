@@ -139,11 +139,10 @@ body{background:#000;font-family:'Jost',sans-serif;font-weight:300;color:#fff;ov
 .rsvp-name{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:clamp(1.6rem,5vw,2.3rem);color:#fff;margin-bottom:14px;min-height:1.2em;}
 .rsvp-q{font-size:.86rem;color:rgba(255,255,255,.5);line-height:1.7;margin-bottom:28px;max-width:440px;}
 .rsvp-btns{display:flex;gap:14px;flex-wrap:wrap;}
-.rbtn{display:inline-flex;align-items:center;gap:8px;padding:14px 28px;border-radius:50px;font-family:'Jost',sans-serif;font-weight:300;font-size:.8rem;letter-spacing:.15em;text-transform:uppercase;cursor:pointer;border:1.5px solid transparent;transition:all .3s;}
-.rbtn-yes{background:var(--lilac);border-color:var(--lilac);color:#fff;}
-.rbtn-yes:hover{background:var(--lilac-d);transform:translateY(-2px);box-shadow:0 10px 24px rgba(122,95,160,.4);}
-.rbtn-no{background:transparent;border-color:rgba(255,255,255,.2);color:rgba(255,255,255,.6);}
-.rbtn-no:hover{border-color:rgba(255,255,255,.4);color:#fff;transform:translateY(-2px);}
+/* ── único cambio de estilo: botón WhatsApp ── */
+.rbtn{display:inline-flex;align-items:center;gap:10px;padding:16px 32px;border-radius:50px;font-family:'Jost',sans-serif;font-weight:400;font-size:.85rem;letter-spacing:.12em;text-transform:uppercase;cursor:pointer;border:none;transition:all .3s;text-decoration:none;}
+.rbtn-whatsapp{background:#25D366;color:#fff;box-shadow:0 4px 20px rgba(37,211,102,.3);}
+.rbtn-whatsapp:hover{background:#1ebe5d;transform:translateY(-2px);box-shadow:0 10px 28px rgba(37,211,102,.45);}
 .rsvp-ok{display:none;text-align:center;padding:10px 0;}
 .ok-title{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:1.9rem;color:#fff;margin-bottom:10px;}
 .ok-msg{font-size:.88rem;color:rgba(255,255,255,.6);line-height:1.75;margin-bottom:22px;}
@@ -238,7 +237,7 @@ body{background:#000;font-family:'Jost',sans-serif;font-weight:300;color:#fff;ov
       <p class="h-gnote" id="heroNote"></p>
     </div>
     <div class="scroll-cue">
-      <div class="scroll-cue-text">Desliza hacia abajo</div>
+      <div class="scroll-cue-text">Desliza hacia arriba</div>
       <div class="scroll-arrows">
         <span></span>
         <span></span>
@@ -248,9 +247,9 @@ body{background:#000;font-family:'Jost',sans-serif;font-weight:300;color:#fff;ov
   </div>
 
   <div class="sec" id="sec0">
-    <p class="sec-lbl">BAJO LA BENDICIÓN DEL AMOR</p>
-    <h2 class="sec-title">Nos unimos para siempre<br>y queremos que estes ahi</h2>
-    <p class="sec-prose">Con profunda gratitud en el corazón y confiando en el propósito perfecto que Dios ha sembrado en nuestras vidas, te invitamos a ser testigo del pacto sagrado que celebraremos delante del Señor. Que tu presencia sea una bendición en este día y forme parte de esta promesa de amor que hoy comienza y que Él, en Su fidelidad, sostendrá por siempre.</p>
+    <p class="sec-lbl">UN AMOR QUE TODO LO UNE</p>
+    <h2 class="sec-title"> Colosenses 3:14</h2>
+    <p class="sec-prose">"Y sobre todas estas cosas vestíos de amor, que es el vínculo perfecto." <br> Acompáñanos a celebrar lo que Dios ha unido.</p>
   </div>
 
   <div class="ornament">&#10022; &nbsp; &#10022; &nbsp; &#10022;</div>
@@ -282,14 +281,14 @@ body{background:#000;font-family:'Jost',sans-serif;font-weight:300;color:#fff;ov
         <div class="t-content"><div class="t-event">Ceremonia</div><p class="t-desc">El momento mas esperado: dos vidas unidas para siempre.</p></div>
       </div>
       <div class="t-row">
-        <div class="t-time-col"><div class="t-time">16:30</div><div class="t-label">horas</div></div>
+        <div class="t-time-col"><div class="t-time">16:45</div><div class="t-label">horas</div></div>
         <div class="t-line-col"><div class="t-dot"></div></div>
         <div class="t-content"><div class="t-event">Brindis y fotografias</div><p class="t-desc">Champagne y momentos especiales con los novios.</p></div>
       </div>
       <div class="t-row">
         <div class="t-time-col"><div class="t-time">18:00</div><div class="t-label">horas</div></div>
         <div class="t-line-col"><div class="t-dot"></div></div>
-        <div class="t-content"><div class="t-event">Banquete y baile</div><p class="t-desc">Cena, torta nupcial y musica hasta la madrugada.</p></div>
+        <div class="t-content"><div class="t-event">Banquete y baile</div><p class="t-desc">Cena, torta nupcial, lanzamiento del ramo y la liga.</p></div>
       </div>
     </div>
   </div>
@@ -312,15 +311,16 @@ body{background:#000;font-family:'Jost',sans-serif;font-weight:300;color:#fff;ov
   <div class="sec" id="sec3">
     <p class="sec-lbl">Vestimenta</p>
     <h2 class="sec-title">Como venir vestido</h2>
-    <p class="sec-prose">Código de vestimenta: Etiqueta formal. <br> Los tonos verde salvia y lila forman parte de nuestra paleta y estarán reservados para las damas de honor.</p>
+    <p class="sec-prose">Código de vestimenta: Semi formal. <br> Los tonos verde salvia, negro, gris y lila forman parte de nuestra paleta y estarán reservados para las damas de honor.</p>
     <div class="pal-card">
       <div>
         <div class="swatches">
           <div class="sw" style="background:#6b8c65"></div>
           <div class="sw" style="background:#7a5fa0"></div>
           <div class="sw" style="background:#b09ec4"></div>
-          <div class="sw" style="background:#fdfcfb"></div>
-          <div class="sw" style="background:#aaa8a8"></div>
+          <div class="sw" style="background:#e9e9e9"></div>
+          <div class="sw" style="background:#fff"></div>
+          <div class="sw" style="background:#080808"></div>
         </div>
         <p style="font-size:.69rem;color:#bbb;margin-top:9px;">Paleta de la boda</p>
       </div>
@@ -337,26 +337,24 @@ body{background:#000;font-family:'Jost',sans-serif;font-weight:300;color:#fff;ov
   <div class="sec" id="sec4">
     <p class="sec-tag">RSVP</p>
     <h2 class="sec-title">Confirma tu asistencia</h2>
-    <p class="sec-body" id="rsvpNotice">Por favor confirma antes del <strong style="color:#fff">26 de marzo de 2026</strong>.</p>
+    <p class="sec-body" id="rsvpNotice">Por favor confirma antes del <strong style="color:#fff">12 de Abril de 2026</strong>.</p>
     <div class="rsvp-card">
       <p class="rsvp-tag">Invitación para</p>
       <div class="rsvp-name" id="rsvpName">Querido invitado</div>
       <p class="rsvp-q">Nos gustaria saber si podras acompañarnos en este día tan especial</p>
+      <!-- ── ÚNICO CAMBIO: botón WhatsApp en lugar de los botones Sí/No ── -->
       <div class="rsvp-btns" id="rsvpBtns">
-        <button class="rbtn rbtn-yes" onclick="confirmar('Si')">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
-          Si, alli estaremos
-        </button>
-        <button class="rbtn rbtn-no" onclick="confirmar('No')">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
-          No podremos asistir
-        </button>
+        <a class="rbtn rbtn-whatsapp" href="#" onclick="confirmarWA(event)">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="flex-shrink:0">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+            <path d="M12.05.02C5.495.02.02 5.495.02 12.05c0 2.124.554 4.123 1.52 5.862L.02 24l6.336-1.48a11.924 11.924 0 005.694 1.445h.005c6.556 0 11.93-5.476 11.93-12.031C24 5.387 18.604.02 12.05.02zm0 21.986h-.004a9.916 9.916 0 01-5.053-1.381l-.362-.215-3.762.879.932-3.656-.236-.374A9.885 9.885 0 012.14 12.05c0-5.49 4.47-9.96 9.965-9.96 5.49 0 9.96 4.47 9.96 9.965-.005 5.49-4.475 9.951-9.965 9.951z"/>
+          </svg>
+          Confirmar por WhatsApp
+        </a>
       </div>
       <div class="rsvp-ok" id="rsvpOk">
-        <div class="ok-title" id="okTitle">Gracias por confirmar</div>
-        <p class="ok-msg" id="okMsg"></p>
-        <button class="btn-dl" onclick="downloadCSV()">Descargar lista de confirmaciones</button>
-        <p style="font-size:.66rem;color:rgba(255,255,255,.3);margin-top:10px;">Abre directamente en Excel o Google Sheets</p>
+        <div class="ok-title">¡Hasta el 26 de abril!</div>
+        <p class="ok-msg">Tu mensaje fue enviado por WhatsApp. ¡Estamos emocionados de compartir este día contigo! 💍🥂</p>
       </div>
     </div>
   </div>
@@ -381,7 +379,6 @@ let rsvpList  = JSON.parse(localStorage.getItem('rsvp_boda_2026') || '[]');
     document.getElementById('envGuestName').textContent = guestName;
     document.getElementById('rsvpName').textContent = guestName;
 
-    // Detect if it's 1 or 2 people based on " y " in the name
     const isTwo = /\s+y\s+/i.test(guestName);
     const num = isTwo ? 2 : 1;
 
@@ -390,9 +387,6 @@ let rsvpList  = JSON.parse(localStorage.getItem('rsvp_boda_2026') || '[]');
       document.getElementById('envReserved').textContent = 'Hemos reservado';
       document.getElementById('envPlaces').textContent = 'lugar en tu honor';
       document.getElementById('rsvpNotice').innerHTML = 'Por favor confirma antes del <strong style="color:#fff">26 de marzo de 2026</strong>. Esta invitacion es personal e intransferible.';
-      // Update RSVP buttons text
-      document.querySelector('.rbtn-yes').innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg> Si, alli estare';
-      document.querySelector('.rbtn-no').innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> No podre asistir';
     } else {
       document.getElementById('rsvpNotice').innerHTML = 'Por favor confirman antes del <strong style="color:#fff">26 de marzo de 2026</strong>. Esta invitacion es para 2 personas.';
     }
@@ -469,32 +463,22 @@ function transitionToMain(){
   document.querySelectorAll('.sec').forEach(el => obs.observe(el));
 }
 
-/* ═══ RSVP ═══ */
-function confirmar(resp){
+/* ═══ RSVP — WhatsApp al 3003348404 ═══ */
+function confirmarWA(e){
+  e.preventDefault();
   const name = guestName || 'Querido invitado';
-  rsvpList.push({ fecha: new Date().toLocaleString('es-CO'), invitado: name, asistencia: resp });
-  localStorage.setItem('rsvp_boda_2026', JSON.stringify(rsvpList));
-  document.getElementById('rsvpBtns').style.display = 'none';
-  let msg = resp === 'Si'
-    ? `${name}, los esperamos con todo nuestro amor el 26 de abril. Esteban y Erika estan emocionados de compartir este dia con ustedes.`
-    : `${name}, lamentamos que no puedan acompanarnos, pero los tendremos muy presentes en nuestro corazon ese dia.`;
-  document.getElementById('okTitle').textContent = resp === 'Si' ? '¡Nos vemos el 26 de abril!' : 'Gracias por avisarnos';
-  document.getElementById('okMsg').textContent = msg;
-  const okEl = document.getElementById('rsvpOk');
-  okEl.style.display = 'block'; okEl.style.opacity = '0'; okEl.style.transition = 'opacity .6s';
-  requestAnimationFrame(() => requestAnimationFrame(() => { okEl.style.opacity = '1'; }));
-}
+  const msg = encodeURIComponent(
+    '¡Hola Esteban y Erika! Soy ' + name +
+    '. Confirmo mi asistencia a su boda el 26 de abril de 2026. ¡Muchas felicidades! 💍🥂'
+  );
+  window.open('https://wa.me/573003348404?text=' + msg, '_blank');
 
-/* ═══ CSV ═══ */
-function downloadCSV(){
-  if(!rsvpList.length){ alert('No hay confirmaciones aun.'); return; }
-  const h = ['Fecha','Invitado','Asistencia'];
-  const rows = rsvpList.map(r => [r.fecha, r.invitado, r.asistencia].map(v => `"${(v||'').replace(/"/g,'""')}"`));
-  const csv  = '\uFEFF' + [h.join(','), ...rows.map(r => r.join(','))].join('\r\n');
-  const a    = document.createElement('a');
-  a.href     = URL.createObjectURL(new Blob([csv], {type:'text/csv;charset=utf-8;'}));
-  a.download = `confirmaciones_boda_esteban_erika_${new Date().toISOString().slice(0,10)}.csv`;
-  document.body.appendChild(a); a.click(); document.body.removeChild(a);
+  document.getElementById('rsvpBtns').style.display = 'none';
+  const okEl = document.getElementById('rsvpOk');
+  okEl.style.display = 'block';
+  okEl.style.opacity = '0';
+  okEl.style.transition = 'opacity .6s';
+  requestAnimationFrame(() => requestAnimationFrame(() => { okEl.style.opacity = '1'; }));
 }
 </script>
 </body>
